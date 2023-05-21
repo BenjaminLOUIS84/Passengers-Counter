@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+@keyframes appear {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+
+}
+
 body {
     text-align: center;
     font-weight: bold;
@@ -27,23 +38,25 @@ h2 {
 }
 
 #increment-btn {
-    background: red;
+    background: cyan;
     color: white;
     border-radius: 8px;
     width: 140px;
     padding: 5px;
     margin: 5px;
     cursor: pointer;
+    animation: appear 1s;
 }
 
 #save-btn {
-    background: green;
+    background: cornflowerblue;
     color: white;
     border-radius: 8px;
     width: 140px;
     padding: 5px;
     margin: 5px;
     cursor: pointer;
+    animation: appear 1s;
 }
 
 p {
@@ -54,7 +67,7 @@ p {
 }
 
 #reset-btn {
-    background: red;
+    background: cyan;
     color: white;
     border-radius: 8px;
     width: 140px;
@@ -63,6 +76,7 @@ p {
     cursor: pointer;
     margin-bottom: 100px;
     margin-top: 140px;
+    animation: appear 1s;
 }
 
 /*///////////////////////////////////////////////RESPONSIVE/////////////////*/
@@ -88,14 +102,17 @@ p {
 
     p {
         padding-bottom: 30px;
+        background: radial-gradient(white, aquamarine);
     }
 
     body {
-        background-repeat: round;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: aquamarine;
     }
 
     #reset-btn {
-        margin-bottom: 200px;
+        margin-top: 80px;
     }
 
 
