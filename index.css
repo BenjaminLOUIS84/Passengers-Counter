@@ -67,7 +67,7 @@ p {
 }
 
 #reset-btn {
-    background: cyan;
+    background: cornflowerblue;
     color: white;
     border-radius: 8px;
     width: 140px;
@@ -102,13 +102,13 @@ p {
 
     p {
         padding-bottom: 30px;
-        background: radial-gradient(white, aquamarine);
+        background: radial-gradient(white, cyan);
     }
 
     body {
         background-repeat: no-repeat;
         background-size: contain;
-        background-color: aquamarine;
+        background-color: cyan;
     }
 
     #reset-btn {
