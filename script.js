@@ -27,9 +27,12 @@ function save() {
 
     savePassenger.innerText += countStr // Pour sauvegarder chaque étape du processus de comptage 
 
+    countPassenger.innerText = 0 // Pour remettre le compteur à zéro
+    passenger = 0 
+
 }
 
-//  Fonction pour reset le compteur à zéro
+//  Fonction pour reset tout le compteur à zéro
 function reset() {
 
     location.reload() 
