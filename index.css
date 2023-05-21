@@ -94,4 +94,9 @@ p {
         background-repeat: round;
     }
 
+    #reset-btn {
+        margin-bottom: 50px;
+    }
+
+
 }
