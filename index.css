@@ -79,6 +79,17 @@ p {
     animation: appear 1s;
 }
 
+.site {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    display: block;
+}
+
+.site:hover {
+    font-weight: lighter;
+}
+
 /*///////////////////////////////////////////////RESPONSIVE/////////////////*/
 
 @media only screen and (max-width: 1196px) {
@@ -106,9 +117,9 @@ p {
     }
 
     body {
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-color: cyan;
+
+        background-size: cover;
+
     }
 
     #reset-btn {
